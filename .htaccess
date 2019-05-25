@@ -1,0 +1,26 @@
+RewriteEngine on
+
+
+RewriteRule ^about$ about.html [NC]
+
+#pages
+
+RewriteRule ^page/([0-9]+)$ index.php?page=$1 [NC]
+
+#Show page
+RewriteRule ^show/([0-9]+)/ pages/show.php?movie_id=$1 [NC]
+RewriteRule ^shows/([0-9]+)/([0-9]+)/ pages/show.php?movie_id=$1&server=$2 [NC]
+
+#Download 
+
+RewriteRule download/([0-9]+)/ pages/download.php?movie_id=$1 [NC]
+
+#Sections
+RewriteRule ^section/([A-Za-z0-9]+)/([0-9]+)$ section/index.php?section=$1&page=$2 [NC]
+RewriteRule ^section/([A-Za-z0-9]+)/([A-Za-z0-9]+)/([0-9]+)$ section/index.php?section=$1&category=$2&page=$3 [NC]
+
+#Series
+RewriteRule ^series/([0-9]+)$ pages/serie/index.php?page=$1
+RewriteRule ^serie/([0-9]+)/([0-9]+)$ pages/serie/serie.php?serie_id=$1&season=$2 
+RewriteRule ^episode/([0-9]+)$ pages/serie/show.php?episode_id=$1
+RewriteRule ^episode_download/([0-9]+)$ pages/serie/download.php?episode_id=$1

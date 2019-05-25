@@ -1,0 +1,160 @@
+@media (min-width:1024px){
+	.slide_container{
+		width:835px;
+	}
+}
+@media (max-width:990px){
+	.slide_container{
+		height:240px;
+	}
+	.slide_img {
+		height:235px;
+	}
+}
+@media (max-width:768px){
+	.container {
+		width: 100%;
+	}
+	.home{
+		font-size:20px;
+	}
+	.logo  {
+		width:280px;
+	}
+	.menu  li {
+		padding-left:25px;
+	}
+	.slide_container{
+		width:80%;
+		height:210px;
+	}
+	.slide_img {
+		height:200px;
+	}
+	.popular_title {
+		width:30%;
+	}
+}
+@media (max-width:480px){
+	.container{
+		width: 100%;
+	}
+	.logo{
+    float: none;
+		display: table-header-group;
+  }
+  .menu{
+    margin: 0;
+    text-align: center;
+		font-weight: 600;
+  }
+  .menu li{
+    float:none;
+    padding:5px 0px 5px 0px;
+    margin-top:5px;
+    background: #c65c5c;
+  }
+  .menu li a{
+		color:#000;
+    display:block;
+}
+  .menu li a:hover{
+    color:#373737;
+  }
+  .home{
+    margin:0;
+    width:100%;
+  }
+  .scnd-menu{
+    height:auto;
+  }
+  .scnd-menu ul{
+    height:auto;
+  }
+  .scnd-menu li {
+    float: none;
+    margin:0;
+    margin-top: 10px;
+    background: #c65c5c;
+		border-radius: 3px;
+  }
+  .scnd-menu li a{
+    color:#373737;
+  }
+  .scnd-menu li a:hover{
+    color:#676767;
+  }
+	.search{
+		width:75%;
+	}
+	.admin_logo{
+		width:80%;
+	}
+	.list_nmbr_container , .list-nmbr {
+		width:100%;
+	}
+	.slide_container,.arrows {
+		display: none;
+	}
+	.movie-player{
+		height:200px;
+	}
+	.download-btn {
+		width:40%;
+	}
+	.movie_tools_top {
+		display: block;
+		/*CSS transitions*/
+	  -o-transition-property: none !important;
+	  -moz-transition-property: none !important;
+	  -ms-transition-property: none !important;
+	  -webkit-transition-property: none !important;
+	  transition-property: none !important;
+	  /*CSS transforms*/
+	  -o-transform: none !important;
+	  -moz-transform: none !important;
+	  -ms-transform: none !important;
+	  -webkit-transform: none !important;
+	  transform: none !important;
+	  /*CSS animations*/
+	  -webkit-animation: none !important;
+	  -moz-animation: none !important;
+	  -o-animation: none !important;
+	  -ms-animation: none !important;
+	  animation: none !important;
+
+	}
+	.movie_tools_bottom{
+		display: block;
+		/*CSS transitions*/
+	  -o-transition-property: none !important;
+	  -moz-transition-property: none !important;
+	  -ms-transition-property: none !important;
+	  -webkit-transition-property: none !important;
+	  transition-property: none !important;
+	  /*CSS transforms*/
+	  -o-transform: none !important;
+	  -moz-transform: none !important;
+	  -ms-transform: none !important;
+	  -webkit-transform: none !important;
+	  transform: none !important;
+	  /*CSS animations*/
+	  -webkit-animation: none !important;
+	  -moz-animation: none !important;
+	  -o-animation: none !important;
+	  -ms-animation: none !important;
+	  animation: none !important;
+	}
+	.popular_title {
+		width:50%;
+	}
+	.category_list li {
+		margin-top: 5px;
+	}
+	/*Serie Page*/
+	.serie_titles {
+		width:50%;
+	}
+	.seasons_list li,.episodes_list {
+		width:50%;
+	}
